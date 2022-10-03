@@ -1,0 +1,151 @@
+img {
+    width: 400px;
+    height: auto;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border guide */
+    /* border: 5px solid red;  */
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 50px; */
+    /* border guide */
+    /* border: 5px solid orange; */
+}
+
+.header-text {
+    color: #f9faf8;
+    font-size: 24px;
+
+}
+
+.header-link > * {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    /* border guide */
+    /* border: 5px solid rgb(209, 209, 7); */
+}
+
+.main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+
+.sub-text {
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    
+}
+
+.header-link, .sub-text {
+    /* color: #e5e7eb; */
+}
+
+.header-content {
+    display: flex;
+   margin-top: 90px;
+   margin-bottom: 90px;
+    gap: 20px;
+     /* border guide */
+     /* border: 5px solid darkkhaki; */
+}
+
+.section-1 {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 10px;
+    /* border guide */
+    /* border: 5px solid hotpink; */
+}
+
+.sec1-container {
+    margin: 8px 120px;
+}
+
+/* .main-img {
+    width: 400px;
+    height: auto;
+} */
+
+a, li {
+    list-style: none;
+    text-decoration: none;
+    color: #e5e7eb;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 800;
+}
+
+.sec2-info {
+    display: flex;
+    justify-content: center;
+    margin: 8px 120px;
+    gap: 60px;
+  
+
+}
+
+
+.card > img {
+    width: 200px;
+    height: auto;
+}
+
+.card {
+    max-width: 200px;
+    text-align: center;
+}
+
+.card > .text {
+    margin-top: 10px;
+}
+
+.section-4 {
+    background-color: #e5e7eb;
+    color: #1f2937;
+   
+}
+
+.sec4-info {
+    margin: 40px 120px;
+    padding: 80px 0;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+
+}
